@@ -7,7 +7,7 @@ Func ToTheRight()
 	$my = 0
 	MouseMove($x + $mx, $y + $my, 5)
 EndFunc
-Run("explorer.exe " & "C:\Users\Nitro\AppData\Local\Temp")
+Run("explorer.exe " & "C:\Users\username\AppData\Local\Temp")
 MouseMove(200, 500, 0)
 ToTheRight()
 Send("^a")
